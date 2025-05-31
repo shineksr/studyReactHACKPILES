@@ -1,13 +1,13 @@
-import Demo from "./Component/Demo";
-import Profile from "./Component/Profile";
-const App =() => {
+import React from 'react'
+import NavBar from './Component/NavBar'
+import './App.css'
+function App() {
   return (
-    <div>
-      <h1>Amazing icons</h1>
-      <Profile/>
-      <Demo/>
-    </div> 
-  );
-};
+    <div className='"App'>
+      <NavBar/>
 
-export default App;
+    </div>
+  )
+}
+
+export default App
