@@ -9,7 +9,9 @@ export const Banner = (props) => {
                 <button className='button'>play</button>
                 <button className='button'>My list</button>
             </div>
-
+            <h1 className='description'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+              Consectetur, velit itaque rerum a repudiandae animi! Quidem sunt nisi ipsa officia aliquid! 
+              Soluta, distinctio hic? Culpa autem ex nulla sint ad!</h1>
         </div>
     </div>
   )
