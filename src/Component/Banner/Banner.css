@@ -42,6 +42,6 @@
     max-width: 360px; 
 }
 .fade_bottom{
-    height:7.4rem;
-    background-image:linear-gradient(180deg,transparent,rgba(72, 224, 26, 0.61),#5a10e2);
+    height:21.4rem;
+    background-image:linear-gradient(180deg,transparent,rgba(37, 37, 37, 0.61),#111);
 }
