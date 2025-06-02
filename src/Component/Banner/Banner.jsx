@@ -1,6 +1,6 @@
 import React from 'react'
-import { connect } from 'react-redux'
-export const Banner = (props) => {
+import './Banner.css'
+function Banner(){
   return (
     <div className='banner'>
         <div className='content'>
@@ -13,12 +13,10 @@ export const Banner = (props) => {
               Consectetur, velit itaque rerum a repudiandae animi! Quidem sunt nisi ipsa officia aliquid! 
               Soluta, distinctio hic? Culpa autem ex nulla sint ad!</h1>
         </div>
+        <div className="fade_bottom">
+          
+        </div>
     </div>
   )
 }
-
-const mapStateToProps = (state) => ({})
-
-const mapDispatchToProps = {}
-
-export default connect(mapStateToProps, mapDispatchToProps)(Banner)
+export default Banner
